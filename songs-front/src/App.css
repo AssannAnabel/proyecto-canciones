@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(241, 224, 205);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+ 
+}
+h1{
+  margin:20px;
+  text-align: right;
+}
+.song-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+ 
+}
+
+.song-table th,
+.song-table td {
+  padding: 10px;
+  border-bottom: 3px solid #820202;
+}
+.icono{
+  color:#820202;
+}
